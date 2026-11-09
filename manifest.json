@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "commit": "1c68f62bc0136c77df814d7230164da8dd325ce1",
+  "logos": {
+    "20271109": [
+      {
+        "id": "comic-book-day",
+        "query": "Comic Book Day",
+        "title": {
+          "en-US": "Happy Comic Book Day!"
+        },
+        "authors": [
+          {
+            "name": "Pierre-Mony CHAN"
+          },
+          {
+            "name": "alicecaptnpicard"
+          },
+          {
+            "name": "panonim"
+          },
+          {
+            "name": "fccview"
+          }
+        ],
+        "image": "logos/20271109/comic-book-day/image.png"
+      }
+    ]
+  }
+}
