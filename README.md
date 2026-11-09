@@ -1,13 +1,10 @@
 # dedoodles
 
----
-
 Community made logos for [degoog](https://github.com/degoog-org/degoog).
 
-On days that have a logo, degoog shows it in place of its usual logo, and clicking it searches for whatever the logo celebrates.
-Degoog downloads the list once a day from its own server, so your visitors never talk to GitHub.
+On days that have a logo, degoog shows it in place of its usual logo, and clicking it searches for whatever the logo celebrates. Totally not inspired by any major corporations.
 
-## Add a logo
+## How to add a logo
 
 1. Fork this repository.
 2. Copy `logos/_template` to `logos/yyyymmdd/your-logo-name/`, for example `logos/20270925/comic-book-day/`.
@@ -24,9 +21,11 @@ More than one logo can share a date, just give each one its own folder. Degoog p
 
 ## Rules
 
+- **NO AI**
+  - Whilst some Degoog features and bugfixes have been dealt with AI and the coding world is going toward a very agentic state, we still absolutely despise image generation proposed as "AI Art". LLMs are token predictors, there's nothing creative about them, this is a place for the community to share their creativity. Anything blatantly done with AI will be automatically rejected.
 - Images must be under 1 MB.
 - Only submit work you made or have permission to share.
-- Keep it friendly, logos show up on everyone's homepage.
+- No NSFW.
 - Do not edit `manifest.json`, it is rebuilt automatically when a pull request is merged.
 
 ## How degoog uses this
