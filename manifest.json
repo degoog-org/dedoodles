@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "commit": "1c68f62bc0136c77df814d7230164da8dd325ce1",
+  "commit": "7f1f897cafdafaf144eb60ac74f8abca2a438818",
   "logos": {
     "20271109": [
       {
@@ -11,16 +11,12 @@
         },
         "authors": [
           {
-            "name": "Pierre-Mony CHAN"
+            "name": "Pierre-Mony CHAN",
+            "url": "https://pmchan.ovh/galerie/"
           },
           {
-            "name": "alicecaptnpicard"
-          },
-          {
-            "name": "panonim"
-          },
-          {
-            "name": "fccview"
+            "name": "alicecaptnpicard",
+            "url": "https://www.instagram.com/alicecaptnpicard"
           }
         ],
         "image": "logos/20271109/comic-book-day/image.png"
