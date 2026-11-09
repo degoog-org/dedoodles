@@ -24,7 +24,7 @@ jobs:
       - run: bun scripts/build-manifest.ts
       - name: Commit manifest
         run: |
-          if git diff --quiet -- manifest.json; then
+          if [ -z "$(git status --porcelain -- manifest.json)" ]; then
             echo "manifest.json is already up to date"
             exit 0
           fi

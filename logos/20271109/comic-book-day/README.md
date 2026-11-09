@@ -5,7 +5,7 @@ A degoog logo drawn in comic book style to celebrate Comic Book Day.
 ## Authors
 
 - [panonim](https://github.com/Panonim) - idea
-- [pmc](https://pmchan.ovh/galerie/) - artwork
+- [Pierre-Mony CHAN](https://pmchan.ovh/galerie/) - artwork
 - [alicecaptnpicard](https://www.instagram.com/alicecaptnpicard) - artwork
 - [fccview](https://fccview.dev) - logo
 
