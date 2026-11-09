@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/degoog-org/dedoodles/main/logo.schema.json",
+  "query": "Comic Book Day",
+  "title": {
+    "en-US": "Happy Comic Book Day!"
+  },
+  "authors": [
+    { "name": "pmc" },
+    { "name": "alicecaptnpicard" },
+    { "name": "panonim" },
+    { "name": "fccview" }
+  ],
+  "image": "image.png"
+}

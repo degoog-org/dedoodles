@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/degoog-org/dedoodles/main/logo.schema.json",
+  "query": "What should degoog search when someone clicks your logo",
+  "title": {
+    "en-US": "Happy Something Day!"
+  },
+  "authors": [
+    { "name": "Your name", "url": "https://github.com/your-username" }
+  ],
+  "image": "image.webp"
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/degoog-org/dedoodles/main/logo.schema.json",
+  "title": "dedoodles logo",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["query", "title", "authors", "image"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "query": {
+      "description": "What degoog searches when someone clicks the logo.",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "title": {
+      "description": "Shown as the tooltip and alt text. en-US is required, add more languages if you like.",
+      "type": "object",
+      "required": ["en-US"],
+      "propertyNames": { "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$" },
+      "additionalProperties": { "type": "string", "minLength": 1, "maxLength": 120 }
+    },
+    "authors": {
+      "description": "Everyone who made the logo, shown as the credit on the logo.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1, "maxLength": 80 },
+          "url": { "type": "string", "pattern": "^https://" }
+        }
+      }
+    },
+    "image": {
+      "description": "The image file inside this logo folder.",
+      "type": "string",
+      "pattern": "^image\\.(png|jpg|jpeg|webp|avif)$"
+    }
+  }
+}
